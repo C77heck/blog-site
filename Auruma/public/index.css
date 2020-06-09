@@ -1,0 +1,274 @@
+body {
+  background-color: #E5E5E5;
+  font-family: 'Rubik', sans-serif;
+  box-sizing: border-box;
+}
+
+hr {
+  width: 5%;
+  border-top: 8px dotted #003049;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+.hrtop {
+  padding-bottom: 0px;
+  margin-top: 210px;
+  padding-top: 0px;
+}
+
+.background-pic {
+  background-image: url("images/resttable.jpg");
+  /* background-size: 130%  */
+  height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.coloured {
+  text-align: center;
+}
+.navbar-toggler {
+  font-size: 1.9rem;
+  margin-top: 15px;
+  color:  #ff5733;
+}
+
+.navbar-nav .nav-link {
+  color: #ff5733;
+  font-size: 1.2rem;
+}
+
+.navbar-brand {
+  color: #ff5733;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding: 0 25px;
+}
+
+a:hover {
+  color: #ff5733;
+}
+
+.nav-link:hover {
+  color: #f6acc8;
+}
+
+.navbar {
+  padding-bottom: 20px;
+}
+
+.hover {
+  background-color: #000;
+  transition: 0.5s ease-out;
+  opacity: 0.7;
+}
+
+.container-fluid {
+  padding: 0 10%;
+}
+.cont-top {
+width: 55%;
+
+}
+
+@media screen and (max-width: 1350px) {
+.cont-top {
+  width: 65%;
+}
+}
+@media screen and (max-width: 992px) {
+.cont-top {
+  width: 80%;
+}
+}
+@media screen and (max-width: 600px) {
+.cont-top {
+  width: 95%;
+}
+}
+.big-heading {
+  margin-bottom: 55px;
+}
+.border {
+  border: solid 5px red;
+}
+
+#about {
+  text-align: center;
+  background-color: #f8e1f4;
+  padding: 150px 0 100px;
+  font-family: 'Slabo 27px', serif;
+  box-shadow: 5px 5px 80px black inset;
+}
+
+.testhr {
+  border: 1px solid #1a535c;
+}
+
+.testhr1 {
+  width: 15%;
+  border: 1px solid #1a535c;
+}
+.testhr2 {
+  width: 2%;
+  border: 1px solid #1a535c;
+}
+
+.testh1 {
+  font-size: 3rem;
+  padding-top: 100px;
+}
+
+.map {
+  width: 100%;
+  box-shadow: 5px 5px 80px black;
+}
+
+.hrmap {
+  padding-bottom: 15px;
+  margin-top: 15px;
+  padding-top: 0px;
+}
+
+
+#footer {
+  text-align: center;
+  background-color: #4d3e3e;
+
+  padding: 85px 0 35px 0;
+}
+.grids {
+    margin: 0 auto 10px;
+
+}
+.footera {
+  color: black;
+}
+.bottomp {
+  font-size: 90%;
+  margin-top: 25px;
+
+}
+.icon-cont {
+  padding-bottom: 50px;
+}
+
+.footericons {
+  padding: 0 30px 0;
+  margin-bottom: 60px;
+  font-size: 1.5rem;
+  color: black;
+}
+.rowcss {
+margin: 0 200px 0 200px;
+}
+
+
+/******************************************************* modal****************************************************** */
+/* modal window */
+
+.titleM{
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 30px;
+
+}
+/* The Modal (background) */
+
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #f5f5f5;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid rgb(51, 58, 42);
+  width: 50%; /* Could be more or less, depending on screen size */
+  color: black;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.6s;
+  animation-name: animatetop;
+  animation-duration: 0.6s;
+  height: 65%;
+
+}
+
+
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+@media screen and (max-width: 800px){
+  .modal-content{
+    width: 45%;
+  }
+}
+@media screen and (min-width: 924px){
+  .modal-content{
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 630px){
+  .modal-content{
+    width: 100%;
+    height: 70%;
+  }
+}
+
+/*********************************************Form********************************************************************** */
+
+.numbPeople{
+  width: 65px;}
+
+.formSize{
+  width: 80%;
+}
+
+
+
+.btnSw {
+  margin: 10px 0;
+  background-image: linear-gradient(-50deg,  rgb(207, 166, 31), #ff5733);
+  color: white;
+  font-size: 120%;
+  padding: 5px 7px;
+  border-radius: 10%;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: none;
+}
+.btnSw:hover {
+  background-image: linear-gradient(50deg,  #ff5733, #a07119);
+
+}
+
+.title{
+  padding: 6px 0;
+  height: 7%;
+  width: 65px;
+}
