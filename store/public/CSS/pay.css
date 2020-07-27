@@ -1,0 +1,57 @@
+
+p{
+    float: left;
+    min-width: 30%;
+}
+
+.gridCont2{
+    margin: 15px;
+    width: 600px;
+    display: grid;
+    grid-template-columns:  auto;
+ 
+}
+.grid-item2{
+    font-size: 1.5rem;
+    text-align: left;
+    height: 70px;
+    overflow: hidden;
+    border: 1px solid rgba(133, 129, 129, 0.8);
+    margin: 5px;
+
+}
+
+
+ .listPicDiv{
+    height: inherit;
+    float: left; 
+    min-width: 20%;
+    padding: 5px;
+    
+
+} 
+
+
+.payImg{
+    max-height: 100%;
+    width: auto;
+}
+
+
+.paySite{
+
+    font-size: 1em;
+    font-weight: normal;
+
+
+}
+ .listCont{
+    height: 70px;
+    
+} 
+
+.formCont{
+ padding-top: 20px;
+}
+
+/* 600px till 936px */
